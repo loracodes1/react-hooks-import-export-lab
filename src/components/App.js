@@ -1,14 +1,13 @@
 import React from "react";
-import Home from "./Home"
 import NavBar from "./NavBar";
+import Home from "./Home";
 import About from "./About";
-
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Home username={username} city={city}/>
+      <Home />
       <About />
     </div>
   );
