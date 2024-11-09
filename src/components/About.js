@@ -1,5 +1,5 @@
 import React from "react";
-
+ 
 function About({image}) {
   return (
     <div id="about">
